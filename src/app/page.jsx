@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ServiciosSection from "@/components/Servicio";
+import ServiciosSection from "@/components/ServicioSection";
 import ProyectosSection from "@/components/Proyecto";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

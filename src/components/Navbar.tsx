@@ -12,7 +12,7 @@ export default function Navbar() {
       </Link>
       <nav className="hidden md:flex items-center gap-6">
         <Link
-          href="/services"
+          href="/servicios"
           className="hover:underline flex items-center gap-2"
           prefetch={false}
         >
