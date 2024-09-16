@@ -52,9 +52,9 @@ function HomePage({ params }: { params: { bookId: string } }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-1">
-        <section className="w-full pt-8 pb-12 md:pt-16 md:pb-24 lg:pt-24 lg:pb-32 xl:pt-32 xl:pb-48 bg-gradient-to-b from-primary/5 to-primary/10">
-          <div className="container px-4 md:px-6">
+      <main className="flex-1 flex flex-col">
+        <section className="w-full flex-1 pt-8 pb-12 md:pt-16 md:pb-24 lg:pt-24 lg:pb-32 xl:pt-32 xl:pb-48 bg-gradient-to-b from-primary/5 to-primary/10">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
@@ -117,7 +117,7 @@ function HomePage({ params }: { params: { bookId: string } }) {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
               Qué Incluye
             </h2>
