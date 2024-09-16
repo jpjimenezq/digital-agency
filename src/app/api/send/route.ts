@@ -5,7 +5,7 @@ import { pool } from "../../../lib/db";
 export async function POST(request: Request) {
   try {
     //Se desabilita por el momento bookId
-    const { name, email, bookId } = await request.json();
+    const { name, email } = await request.json();
 
     if (!name || !email) {
       return NextResponse.json(
