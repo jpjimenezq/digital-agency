@@ -16,8 +16,8 @@ export default function Page() {
     <div className="flex flex-col min-h-[100dvh]">
       <Navbar />
       <main className="flex-1">
-        <section className="bg-background py-12 md:py-24 px-4 md:px-6 relative">
-          <div className="container max-w-5xl mx-auto">
+        <section className="bg-background py-12 md:py-24 px-4 md:px-6 relative h-[600px] md:h-[800px] lg:h-[600px]">
+          <div className="container max-w-5xl mx-auto h-full">
             <Carousel slides={carouselSlides} />
           </div>
         </section>
