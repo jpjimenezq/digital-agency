@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { LaptopIcon, GlobeIcon, MenuIcon } from "./Icons";
+import { LaptopIcon, MenuIcon } from "./Icons";
 import { XIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -23,7 +23,6 @@ export default function Navbar() {
               className="hover:underline flex items-center gap-2"
               prefetch={false}
             >
-              <GlobeIcon className="h-5 w-5" />
               Servicios
             </Link>
             <Link
@@ -63,7 +62,6 @@ export default function Navbar() {
               className="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium hover:bg-primary-foreground hover:text-primary"
               prefetch={false}
             >
-              <GlobeIcon className="h-5 w-5" />
               Servicios
             </Link>
             <Link

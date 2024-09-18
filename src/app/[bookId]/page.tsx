@@ -6,6 +6,7 @@ import { CheckCircle, Send } from "lucide-react";
 import Img from "../../components/Img";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
 function HomePage({ params }: { params: { bookId: string } }) {
   const { bookId } = params;
   const [name, setName] = useState("");
